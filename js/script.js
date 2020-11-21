@@ -16,4 +16,4 @@ function generatepass(plength)
 function populateform(enterlength)
 {
     document.passGen.output.value=generatepass(enterlength)
-}
+} 

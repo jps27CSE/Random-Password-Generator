@@ -15,13 +15,23 @@
     
     <div class="container">
        <form action="" name="passGen">
-        <input type="text" size="18" name="output">
-        <input type="button" value="Generate Password" onClick="populateform(this.form.length.value)"> <br>
-        <strong>Password Length:</strong> <input type="text" name="length" size="3" value="6"> 
-       </form>
+      <div class="col-xs-12">
+        <input type="text" name="output" class="out" disabled>
+        <input type="button" value="Generate password" class="btn btn-success btn-block myBtn" 
+        onClick="populateform(this.form.length.value)"><br>
+        <div class="col-xs-10"><strong class="pass">Password Length: </strong></div>
+        <div class="col-xs-2"><input type="text" name="length" size="3" value="6" class="in"></div>
+        
+      </div>
+      </form>
       
 
     </div>
+
+    <footer>
+      <p >&copy; Developed by Jack Pritom Soren</p>
+      
+    </footer>
 
     <!-- Optional JavaScript; choose one of the two! -->
     <script src="js/script.js"></script>
